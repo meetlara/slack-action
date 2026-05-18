@@ -15,8 +15,8 @@ inputs:
     description: 'The name that send the message, example: Github. Override the default incoming Webhook Slack settings '
     required: false
 runs:
-  using: node12
-  main: src/index.js
+  using: node24
+  main: dist/index.js
 branding:
   color: green
   icon: message-square
